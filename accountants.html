@@ -80,6 +80,7 @@
             <hr>
             <h2 class="mb-0">Salary details:</h2>
             <form class="row g-3" onsubmit="return salaryval()">
+                <input type="hidden" value="xxx" name="eid">
                 <div class="col-12">
                     <label for="basicsalary" class="form-label">Basic Salary</label>
                     <input type="number" class="form-control" id="basicsalary" name="basicsalary" placeholder="In Rupees">
@@ -149,16 +150,16 @@
                     <button type="submit" class="btn btn-primary" id="salarysubmit">Submit Salary Details</button>
                 </div>
             </form>
-            <div class="text-success">
+            <div class="text-success d-none">
                fff
             </div>
-            <div class="text-danger">
+            <div class="text-danger d-none">
                fff
             </div>
-            <div class="submission-info mb-0 ma-0">
-                <h5>Total salary: 234</h5>
-                <h5>Total deductions: 234</h5>
-                <h5>Net salary: 234</h5>
+            <div class="submission-info mb-0 ma-0 d-none">
+                <h5>Total salary: <span>234</span></h5>
+                <h5>Total deductions: <span>234</span></h5>
+                <h5>Net salary: <span>234</span></h5>
             </div>
         </div>
     </div>
