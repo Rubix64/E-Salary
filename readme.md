@@ -46,6 +46,14 @@ python3 manage.py runserver
 deactivate
 ```
 
+**To run the server:-**
+Execute the following commands:
+```
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py runserver
+```
+
 >For more information on running a django project: 
 https://docs.djangoproject.com/en/4.0/ref/django-admin/
 
